@@ -1,0 +1,151 @@
+
+.headimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+}
+#square {
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+#circle {
+      width: 100px;
+      height: 100px;
+      background: red;
+      border-radius: 50%
+    }
+#trapezoid {<br />
+      border-bottom: 100px solid red;<br />
+      border-left: 25px solid transparent;<br />
+      border-right: 25px solid transparent;<br />
+      height: 0;<br />
+      width: 100px;<br />
+    }<br />
+#parallelogram {
+      width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+      background: red;
+    }
+#egg {
+      display: block;
+      width: 126px;
+      height: 180px;
+      background-color: red;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    }
+  
+#yin-yang {
+      width: 96px;
+      box-sizing: content-box;
+      height: 48px;
+      background: #eee;
+      border-color: red;
+      border-style: solid;
+      border-width: 2px 2px 50px 2px;
+      border-radius: 100%;
+      position: relative;
+    }
+#yin-yang:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      background: #eee;
+      border: 18px solid red;
+      border-radius: 100%;
+      width: 12px;
+      height: 12px;
+      box-sizing: content-box;
+    }
+#yin-yang:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: red;
+      border: 18px solid #eee;
+      border-radius: 100%;
+      width: 12px;
+      height: 12px;
+      box-sizing: content-box;
+    }
+#tv {
+      position: relative;
+      width: 200px;
+      height: 150px;
+      margin: 20px 0;
+      background: red;
+      border-radius: 50% / 10%;
+      color: white;
+      text-align: center;
+      text-indent: .1em;
+    }
+#tv:before {
+      content: '';
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+      right: -5%;
+      left: -5%;
+      background: inherit;
+      border-radius: 5% / 50%;
+    }    
+#magnifying-glass {
+      font-size: 10em;
+      display: inline-block;
+      width: 0.4em;
+      box-sizing: content-box;
+      height: 0.4em;
+      border: 0.1em solid red;
+      position: relative;
+      border-radius: 0.35em;
+    }
+#magnifying-glass:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      right: -0.25em;
+      bottom: -0.1em;
+      border-width: 0;
+      background: red;
+      width: 0.35em;
+      height: 0.08em;
+      transform: rotate(45deg);
+    }
+#cross {
+      background: red;
+      height: 100px;
+      position: relative;
+      width: 20px;
+    }
+#cross:after {
+      background: red;
+      content: "";
+      height: 20px;
+      left: -40px;
+      position: absolute;
+      top: 40px;
+      width: 100px;
+    }
+footer{
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #FFD700;    
+}
+.footerleft {
+  width: 50%;
+  padding-top: 5px;
+}
+.footerright{
+  float: right;
+}
+footer:after {
+  display: table;
+  clear: both;
+}
+
